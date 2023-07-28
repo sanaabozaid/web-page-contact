@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+.clear{
+    clear:both;
+}
+.header{
+width: 100%;
+height: 80px;
+background-color:white;
+position: fixed;
+top:0;
+}
+.img1{
+    float:left;
+    margin-left: 60px;
+    margin-top:0;
+}
+.ul-element{
+    float:right;
+    margin-right: 60px; 
+}
+.ul-element li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.ul-element li a{color:rgb(28, 240, 9);
+text-transform: capitalize;}
+a{
+    text-decoration: none;
+}
+.button1{
+    margin-right: 40px;
+    background-color:rgb(28, 240, 9);
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+
+}
+.button1 a{
+    color: white;
+text-transform: capitalize;}
+/* background */
+.background{
+    background-image:url(group-positive-young-people-posing-together.jpg);
+    width: 100%;
+    height:520px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: fixed;
+    z-index: 0;
+}
+.text{
+padding-top: 220px; 
+padding-left:60px;
+z-index: 1;
+font-size: 50px;
+color: #ffffff;
+}
+.p1{
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing:4px;
+}
+.p2{
+    padding-top: 20px;
+    text-transform:capitalize;
+    font-size: 20px;
+    letter-spacing: 14px;
+    padding-left: 13px;
+}
+/* divs */
+.divs{
+width: 100%;
+height: 330px;
+padding-top: 100px;
+overflow: hidden;
+}
+.di{
+    background-color: white;
+    border: solid rgb(28, 240, 9) 1px;
+    height: 150px;
+    width:300px;
+    float: left;
+    margin-left:100px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.divs-address{
+    padding-top:15px;
+    text-transform: capitalize;
+}
+.divs-par{
+     padding: 15px 0;
+    font-size: 15px;
+    }
+     
+.divs-link{
+color:rgb(28, 240, 9);
+font-weight: bold;}
+/* before form */
+.before-form{
+    padding-left: 60px;
+    word-spacing: 1.5;
+    margin-bottom: 89px;
+}
+.bf-address{
+    font-size:40px;
+    padding-bottom: 15px;
+    font-weight:8;
+    color: hwb(0 0% 100%);
+
+}
+.bf-p{
+    color: hwb(0 0% 100%);
+    font-size: 20px;
+    font-weight: 3;
+    line-height:3pdx ;
+}
+/* form */
+.divs-pargnup-form{
+    background-color: #ffffff;
+}
+
+form{
+    border:rgb(28, 240, 9) 2px solid;
+    width: 1230px;
+    margin:auto;
+    height: 700px;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+input{
+    border-radius: 4px;
+    height: 40px;
+    border: solid 1px;
+}
+input:hover{
+    border:rgb(28, 240, 9) 1px solid;
+    transition: .2s;
+}
+label{display:block;
+    font-size: 20px;
+    color: black;
+    padding: 15px 0;}
+.hand{
+    overflow: hidden;
+    /* padding-bottom: 40px; */
+}
+.input-one{
+    width: 500px;    
+}
+.input-two{
+    width: 1030px;
+}
+
+.left-hand {
+float: left;
+}
+.right-hand{
+    float: right;
+    padding-right: 100px;
+
+}
+button{ background-color:rgb(28, 240, 9);
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: white;
+}
+textarea{
+    resize: none;
+}
+textarea:hover{
+    border:rgb(28, 240, 9) 1px solid;
+    transition: .2s; 
+}
